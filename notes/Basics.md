@@ -235,3 +235,4 @@ age = int(input("Enter age: "))
 
 **Q9: What are type hints?**  
 **A:** Optional annotations (`name: str`, `-> int`) documenting expected types. Python ignores them at runtime; tools like mypy check them statically.
+
