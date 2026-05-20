@@ -5,8 +5,9 @@
 # s1 = Student()
 # s1.greet()
 
+
 class Student:
-    
+
     def __init__(self, name, marks):
         self.name = name
         self.marks = marks
@@ -14,6 +15,7 @@ class Student:
     def show(self):
         print(self.name)
         print(self.marks)
+
 
 s1 = Student("John", 85)
 s1.show()

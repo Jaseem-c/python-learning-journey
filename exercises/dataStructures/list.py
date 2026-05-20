@@ -1,5 +1,5 @@
-#ordered, changeable, allows duplicate members
-fruits=["apple", "banana", "cherry"]
+# ordered, changeable, allows duplicate members
+fruits = ["apple", "banana", "cherry"]
 print(fruits)
 print(fruits[0])
 print(fruits[1])
@@ -20,17 +20,17 @@ print(fruits)
 fruits.clear()
 print(fruits)
 
-#loop through a list
+# loop through a list
 thislist = ["apple", "banana", "cherry"]
 for x in thislist:
-  print(x)
+    print(x)
 
-#check if item exists
+# check if item exists
 thislist = ["apple", "banana", "cherry"]
 if "apple" in thislist:
-  print("Yes, 'apple' is in the fruits list")
+    print("Yes, 'apple' is in the fruits list")
 
-#List Comprehension
+# List Comprehension
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 # newlist = []
 
@@ -41,17 +41,17 @@ fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 # print(newlist)
 newlist = [x for x in fruits if "a" in x]
 print(newlist)
-print("-"*20)
-#sort list
+print("-" * 20)
+# sort list
 thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
 thislist.sort()
 print(thislist)
-#sort descending
-thislist.sort(reverse = True)
+# sort descending
+thislist.sort(reverse=True)
 print(thislist)
-print("-"*20)
+print("-" * 20)
 
-#copy list
+# copy list
 thislist = ["apple", "banana", "cherry"]
 mylist = thislist.copy()
 print(mylist)
